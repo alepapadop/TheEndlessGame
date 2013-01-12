@@ -35,8 +35,28 @@
 		<Linker>
 			<Add option="`sdl-config --libs`" />
 		</Linker>
+		<Unit filename="OnCleanup.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="OnEvent.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="OnInit.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="OnLoop.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="OnRender.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="TheEndlessGameApp.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="TheEndlessGameApp.h">
+			<Option target="Debug" />
+		</Unit>
 		<Unit filename="cb.bmp" />
-		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
